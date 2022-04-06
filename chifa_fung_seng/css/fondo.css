@@ -1,0 +1,158 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/* 头框1 */
+#cabeza img{
+    width: 80px;
+    float: left;
+    margin-right: 15px;
+   
+}
+
+header{
+    background-color: #212F3C ;
+    border-bottom: 8px solid gray;
+ 
+}
+
+#cabeza{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 10px;
+    
+  
+   
+}
+
+.cabeza1-1{
+    width: 400px;
+}
+
+.cabeza1-1 h1{
+   color: rgb(252, 255, 98);
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.cabeza1-2{
+    display: flex;
+    align-items: baseline;
+    text-align: center;
+}
+
+.cabeza1-2 a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+/* 头框2 */
+
+.part-2{
+    background-color: rgba(163, 163, 162, 0.782);
+    padding: 1px;
+    border-bottom: 3px solid gray;
+   
+   
+  
+}
+
+#link{
+    width: 70%;
+    margin: auto;
+    
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    
+}
+
+li{
+    display: block;
+}
+
+#link a{
+    text-decoration: none;
+    color: #212F3C;
+    font-size: 18px;
+
+}
+
+li:hover{
+    text-decoration: underline;
+}
+
+/* 身躯 */
+
+body{
+    background-image: url(../imagen/fondo1.jpg);
+    
+    
+ 
+
+}
+
+
+
+/* 屏幕适应设置 */
+
+@media(max-width:1000px){
+
+    #cabeza{
+        width: 90%;
+        margin: auto;
+    }
+
+    #link{
+        width: 90%;
+        margin: auto;
+    }
+
+   
+
+}
+
+
+@media(max-width:786px){
+
+    .cabeza1-1 img{
+        position: relative;
+        top: 20px;
+     
+    }
+
+    #cabeza{
+        flex-direction: column;
+        
+
+    }
+
+   .cabeza1-2{
+       margin-left: 60px;
+   }
+
+ 
+
+}
+
+@media(max-width:500px){
+    .cabeza1-1{
+        font-size: 15px;
+    }
+
+    
+}

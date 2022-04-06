@@ -1,0 +1,1115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Carta</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="./css/fondo.css" />
+    <link rel="stylesheet" href="./css/carta.css" />
+    <meta name="description" content="tenemos los mejores precios de platos orientales para ustedes." />
+    <meta name="author" content="君吴情" />
+    <meta name="keywords" content="chifa, cercado de lima, comida oriental" />
+
+</head>
+
+<body>
+    <header>
+        <!-- 头框-1 -->
+        <div id="cabeza">
+            <div class="cabeza1-1">
+                <img src="./imagen/logo2.png" />
+                <h1>Chifa Fung Seng</h1>
+            </div>
+            <div class="cabeza1-2">
+                <a style="color: rgb(118, 214, 86);" href="chifa.html">acerca del restaurante</a>
+                <a href="sabias.html">sabias que ?</a>
+            </div>
+        </div>
+    </header>
+    <!-- 头框-2 -->
+    <div class="part-2">
+        <div id="link">
+            <ul>
+                <li><a href="chifa.html">Inicio</a></li>
+                <li><a href="carta.html">Carta</a></li>
+                <li><a href="ubicacion.html">Ubicación</a></li>
+                <li><a href="criollo.html">Menu criollo</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <div id="contenedor">
+        <div class="interior-1">
+            <h1>Menú chifa</h1>
+            <h3>(precio referencial para comer en mesa）</h3>
+            <h3>entrada : sopa wantan o wantan frito</h3>
+        </div>
+        <!-- menu -->
+        <div id="ventana" class="especificacion">
+            <h4>especificacion del menu</h4>
+            <p id="espe">especificacion</p>
+            <button onclick="volver()">volver</button>
+        </div>
+        <div class="interior-2">
+            <div class="box" style="background-image: url(./imagen/aeropuerto.jpg); background-size: cover;">
+                <h2>1. Aeropuerto de pollo</h2>
+
+                <p>s/. 12,00</p>
+                <button onclick="aeropuerto()">detalle</button>
+            </div>
+
+            <div class="box" style="background-image: url(./imagen/imagen1.jpg); background-size: cover;">
+                <h2>2. chaufa de pollo</h2>
+                <p>s/. 10,00</p>
+                <button onclick="chaufa()">detalle</button>
+            </div>
+
+            <div class="box" style="background-image: url(./imagen/Tallarin-saltado.jpg); background-size: cover;">
+                <h2>3. tallarin con pollo</h2>
+
+                <p>s/. 11,00</p>
+                <button onclick="tallarin()">detalle</button>
+            </div>
+
+            <div class="box" style="background-image: url(./imagen/tallarin-chancho.png); background-size: cover;">
+                <h2>4. tallarin de chancho</h2>
+
+                <p>s/. 11,50</p>
+                <button onclick="tallachancho()">detalle</button>
+            </div>
+
+            <div class="box" style="background-image: url(./imagen/pollo-verdura.jpg); background-size: cover;">
+                <h2>5. pollo con verdura y arroz chaufa</h2>
+                <div class="imagen"></div>
+                <p>s/. 12,50</p>
+                <button onclick="pverdura()">detalle</button>
+            </div>
+
+            <div class="box" style="background-image: url(./imagen/verduras-con-chancho.jpg); background-size: cover;">
+                <h2>6. chancho con verdura y arroz chaufa</h2>
+                <div class="imagen"></div>
+                <p>s/. 12,50</p>
+                <button onclick="cverdura()">detalle</button>
+            </div>
+
+            <div class="box" style="background-image: url(./imagen/Chancho-con-tamarindo.jpg); background-size: cover;">
+                <h2>7. chancho con tamarindo y arroz chaufa</h2>
+                <div class="imagen"></div>
+                <p>s/. 12,50</p>
+                <button onclick="ct()">detalle</button>
+            </div>
+
+            <div class="box"
+                style="background-image: url(./imagen/Chijaukay_Chifa-Chinita.jpg); background-size: cover;">
+                <h2>8. chijaukay y arroz chaufa</h2>
+                <div class="imagen"></div>
+                <p>s/. 12,50</p>
+                <button onclick="chi()">detalle</button>
+            </div>
+
+            <div class="box" style="background-image: url(./imagen/tipakay.jpg); background-size: cover;">
+                <h2>9. tipakay y arroz chaufa</h2>
+                <div class="imagen"></div>
+                <p>s/. 12,50</p>
+                <button onclick="tipa()">detalle</button>
+            </div>
+
+            <div class="box" style="background-image: url(./imagen/pollo-enrrollado.jpg); background-size: cover;">
+                <h2>10. pollo enrrollado y arroz chaufa</h2>
+                <div class="imagen"></div>
+                <p>s/. 12,50</p>
+                <button onclick="penrr()">detalle</button>
+            </div>
+
+            <div class="box"
+                style="background-image: url(./imagen/pollo-enrollado-verdura.jpg); background-size: cover;">
+                <h2>11. pollo enrrollado con verdura y arroz chaufa</h2>
+                <div class="imagen"></div>
+                <p>s/. 13.00</p>
+                <button onclick="enrrv()">detalle</button>
+            </div>
+
+            <div class="box" style="background-image: url(./imagen/pollo-yuyo.jpg); background-size: cover;">
+                <h2>12. pollo con yuyo y verdura + arroz chaufa</h2>
+                <div class="imagen"></div>
+                <p>s/. 14.50</p>
+                <button onclick="pyuyo()">detalle</button>
+            </div>
+
+            <div class="box" style="background-image: url(./imagen/combinado-pollo.jpg); background-size: cover;">
+                <h2>13. combinado de pollo</h2>
+                <div class="imagen"></div>
+                <p>s/. 12.00</p>
+                <button onclick="cp()">detalle</button>
+            </div>
+
+            <div class="box" style="background-image: url(./imagen/chancho-ajo.jpg); background-size: cover;">
+                <h2>14. chancho al ajo saltado con verdura y arroz chaufa</h2>
+                <div class="imagen"></div>
+                <p>s/. 12.50</p>
+                <button onclick="cver()">detalle</button>
+            </div>
+
+
+            <div class="box" style="background-image: url(./imagen/pollo-frejolito.jpg); background-size: cover;">
+                <h2>15. pollo con frejolito chino y arroz chaufa</h2>
+                <div class="imagen"></div>
+                <p>s/. 12.50</p>
+                <button onclick="pf()">detalle</button>
+            </div>
+
+
+            <div class="box" style="background-image: url(./imagen/kam-lu-jama-fusion-2.jpg); background-size: cover;">
+                <h2>16. kamlu wantan con arroz chaufa</h2>
+                <div class="imagen"></div>
+                <p>s/. 13.50</p>
+                <button onclick="kw()">detalle</button>
+            </div>
+
+
+            <div class="box" style="background-image: url(./imagen/tortilla.jpg); background-size: cover;">
+                <h2>17. tortilla de pollo y arroz chaufa</h2>
+                <div class="imagen"></div>
+                <p>s/. 12.50</p>
+                <button onclick="tor()">detalle</button>
+            </div>
+
+
+            <div class="box" style="background-image: url(./imagen/lomo-saltado.png); background-size: cover;">
+                <h2>18. lomo saltado y arroz chaufa</h2>
+                <div class="imagen"></div>
+                <p>s/. 13.50</p>
+                <button onclick="ls()">detalle</button>
+            </div>
+
+
+            <div class="box" style="background-image: url(./imagen/pescado-pina.jpg); background-size: cover;">
+                <h2>19. pescado con piña y arroz chaufa</h2>
+                <div class="imagen"></div>
+                <p>s/. 12.50</p>
+                <button onclick="pv()">detalle</button>
+            </div>
+
+
+            <div class="box" style="background-image: url(./imagen/chancho-tama-tallarin.png); background-size: cover;">
+                <h2>20. chancho con tamarindo y tallarines</h2>
+                <div class="imagen"></div>
+                <p>s/. 12.50</p>
+                <button onclick="ctt()">detalle</button>
+            </div>
+
+
+            <div class="box" style="background-image: url(./imagen/pollo-pina.jpg); background-size: cover;">
+                <h2>21. pollo con piña y arroz chaufa</h2>
+                <div class="imagen"></div>
+                <p>s/. 12.50</p>
+                <button onclick="pp()">detalle</button>
+            </div>
+
+
+            <div class="box"
+                style="background-image: url(./imagen/res-con-verduras-estilo-chino-receta.jpg); background-size: cover;">
+                <h2>22. carne de res saltado con verdura y arroz chaufa</h2>
+                <div class="imagen"></div>
+                <p>s/. 13.00</p>
+                <button onclick="cv()">detalle</button>
+            </div>
+
+
+            <div class="box" style="background-image: url(./imagen/pescado-verdura.jpg); background-size: cover;">
+                <h2>23. pescado con verdura y arroz chaufa</h2>
+                <div class="imagen"></div>
+                <p>s/. 12.50</p>
+                <button onclick="pver()">detalle</button>
+            </div>
+
+
+            <div class="box" style="background-image: url(./imagen/chaufa-chancho.png); background-size: cover;">
+                <h2>24. arroz chaufa con chancho</h2>
+                <div class="imagen"></div>
+                <p>s/. 11.50</p>
+                <button onclick="acc()">detalle</button>
+            </div>
+
+
+            <div class="box" style="background-image: url(./imagen/combinado-chancho.jpg); background-size: cover;">
+                <h2>25. combinado de chancho</h2>
+                <div class="imagen"></div>
+                <p>s/. 12.50</p>
+                <button onclick="comc()">detalle</button>
+            </div>
+
+
+            <div class="box" style="background-image: url(./imagen/enrrollado-tamarindo.jpg); background-size: cover;">
+                <h2>26. pollo enrrollado con tamarindo y arroz chaufa</h2>
+                <div class="imagen"></div>
+                <p>s/. 12.50</p>
+                <button onclick="pep()">detalle</button>
+            </div>
+
+
+            <div class="box"
+                style="background-image: url(./imagen/pollo-en-trozos-con-champ.jpg); background-size: cover;">
+                <h2>27. pollo en trozo con champiñon y arroz chaufa</h2>
+                <div class="imagen"></div>
+                <p>s/. 14.00</p>
+                <button onclick="ptc()">detalle</button>
+            </div>
+
+
+            <div class="box" style="background-image: url(./imagen/tallarin-trozo.jpg); background-size: cover;">
+                <h2>28. tallarin con pollo en trozo</h2>
+                <div class="imagen"></div>
+                <p>s/. 14.00</p>
+                <button onclick="tpt()">detalle</button>
+            </div>
+
+
+            <div class="box" style="background-image: url(./imagen/taypa.jpg); background-size: cover;">
+                <h2>29. pollo taypa con arroz chaufa</h2>
+                <div class="imagen"></div>
+                <p>s/. 15.50</p>
+                <button onclick="ptaypa()">detalle</button>
+            </div>
+
+
+            <div class="box"
+                style="background-image: url(./imagen/receta-de-alitas-de-pollo-extra-crujientes.jpg); background-size: cover;">
+                <h2>30. alita de pollo frito y arroz chaufa</h2>
+                <div class="imagen"></div>
+                <p>s/. 13.00</p>
+                <button onclick="af()">detalle</button>
+            </div>
+
+
+            <div class="box"
+                style="background-image: url(./imagen/tallarin-de-langostinos-jama-fusion.jpg); background-size: cover;">
+                <h2>31. tallarin saltado con langostino</h2>
+                <div class="imagen"></div>
+                <p>s/. 14.50</p>
+                <button onclick="tl()">detalle</button>
+            </div>
+
+
+            <div class="box"
+                style="background-image: url(./imagen/Tallarin-saltado-carne.jpg); background-size: cover;">
+                <h2>32. tallarin saltado con carne de res</h2>
+                <div class="imagen"></div>
+                <p>s/. 14.00</p>
+                <button onclick="tcr()">detalle</button>
+            </div>
+
+
+            <div class="box" style="background-image: url(./imagen/langostino-verdura.jpg); background-size: cover;">
+                <h2>33. langostino saltado con verdura y arroz chaufa</h2>
+                <div class="imagen"></div>
+                <p>s/. 14.50</p>
+                <button onclick="lsv()">detalle</button>
+            </div>
+
+
+            <div class="box" style="background-image: url(./imagen/pollo-tausi.jpg); background-size: cover;">
+                <h2>34. pollo con tausi y arroz chaufa</h2>
+                <div class="imagen"></div>
+                <p>s/. 12.50</p>
+                <button onclick="ptausi()">detalle</button>
+            </div>
+
+
+            <div class="box" style="background-image: url(./imagen/limonkay.jpg); background-size: cover;">
+                <h2>35. limonkay arroz chaufa</h2>
+                <div class="imagen"></div>
+                <p>s/. 12.50</p>
+                <button onclick="lik()">detalle</button>
+            </div>
+
+
+            <div class="box" style="background-image: url(./imagen/triple.jpg); background-size: cover;">
+                <h2>36. triple (chijaukay + tipakay + chaufa)</h2>
+                <div class="imagen"></div>
+                <p>s/. 17.50</p>
+                <button onclick="tri()">detalle</button>
+            </div>
+
+
+            <div class="box" style="background-image: url(./imagen/chicharron.jpg); background-size: cover;">
+                <h2>37. chicharron de pollo con arroz chaufa</h2>
+                <div class="imagen"></div>
+                <p>s/. 15.50</p>
+                <button onclick="chip()">detalle</button>
+            </div>
+
+
+            <div class="box" style="background-image: url(./imagen/langostino-pina.jpg); background-size: cover;">
+                <h2>38. langostino con piña y arroz chaufa</h2>
+                <div class="imagen"></div>
+                <p>s/. 14.50</p>
+                <button onclick="lpc()">detalle</button>
+            </div>
+
+
+            <div class="box" style="background-image: url(./imagen/Tallarín-taypá-1.jpg); background-size: cover;">
+                <h2>39. tallarin taypa</h2>
+                <div class="imagen"></div>
+                <p>s/. 16.50</p>
+                <button onclick="tt()">detalle</button>
+            </div>
+
+
+            <div class="box"
+                style="background-image: url(./imagen/aeropuerto-de-cerdo-jama-fusion.jpg); background-size: cover;">
+                <h2>40. aeropurto de chancho</h2>
+                <div class="imagen"></div>
+                <p>s/. 13.50</p>
+                <button onclick="ac()">detalle</button>
+            </div>
+
+
+            <div class="box" style="background-image: url(./imagen/enrrollado-pina.jpg); background-size: cover;">
+                <h2>41. pollo enrrollado con piña y arroz chaufa</h2>
+                <div class="imagen"></div>
+                <p>s/. 13.50</p>
+                <button onclick="perrp()">detalle</button>
+            </div>
+
+
+            <div class="box"
+                style="background-image: url(./imagen/pollo-en-trozos-con-piña.jpg); background-size: cover;">
+                <h2>42. pollo en trozo con piña y arroz chaufa</h2>
+                <div class="imagen"></div>
+                <p>s/. 14.00</p>
+                <button onclick="ptcp()">detalle</button>
+            </div>
+
+
+            <div class="box" style="background-image: url(./imagen/chancho-frejolito.jpg); background-size: cover;">
+                <h2>43. chancho con frejolito y arroz chaufa</h2>
+                <div class="imagen"></div>
+                <p>s/. 13.50</p>
+                <button onclick="cfac()">detalle</button>
+            </div>
+
+            <div class="box" style="background-image: url(./imagen/res-frejolito.jpg); background-size: cover;">
+                <h2>44. carne de res saltado con frejolito chino y arroz chaufa</h2>
+                <div class="imagen"></div>
+                <p>s/. 13.50</p>
+                <button onclick="crfcc()">detalle</button>
+            </div>
+
+            <div class="box"
+                style="background-image: url(./imagen/pollotrozo-con-frejolito.jpg); background-size: cover;">
+                <h2>45. pollo en trozo saltado con frejolito chino y arroz chaufa</h2>
+                <div class="imagen"></div>
+                <p>s/. 14.00</p>
+                <button onclick="ptfcc()">detalle</button>
+            </div>
+
+            <div class="box" style="background-image: url(./imagen/alitas-pina.jpg); background-size: cover;">
+                <h2>46. alita frita con piña y arroz chaufa</h2>
+                <div class="imagen"></div>
+                <p>s/. 14.00</p>
+                <button onclick="alpcc()">detalle</button>
+            </div>
+
+            <div class="box" style="background-image: url(./imagen/alita-verdura.jpg); background-size: cover;">
+                <h2>47. alita frita con verdura y arroz chaufa</h2>
+                <div class="imagen"></div>
+                <p>s/. 14.00</p>
+                <button onclick="alvvcc()">detalle</button>
+            </div>
+
+            <div class="box" style="background-image: url(./imagen/huevo.jpg); background-size: cover;">
+                <h2>48. huevo codorniz saltado con verdura y arroz chaufa</h2>
+                <div class="imagen"></div>
+                <p>s/. 14.00</p>
+                <button onclick="hcvc()">detalle</button>
+            </div>
+
+            <div class="box" style="background-image: url(./imagen/langostino-arrebozado.jpg); background-size: cover;">
+                <h2>49. langostino arrebosado y arroz chaufa</h2>
+                <div class="imagen"></div>
+                <p>s/. 15.50</p>
+                <button onclick="laac()">detalle</button>
+            </div>
+
+
+        </div>
+
+
+        <div id="carta">
+            <h1 style="text-align: center;color: rgb(48, 159, 26); text-decoration: underline;">platos a la carta</h1>
+            <!-- 汤 -->
+            <button onclick="sopa()">Sopa</button>
+            <div id="sopa" class="sopa2">
+                <table>
+                    <tr>
+                        <td>sopa wantan especial</td>
+                        <td>s/. 11.50</td>
+                    </tr>
+                    <tr>
+                        <td>sopa woming especial</td>
+                        <td>s/. 11.50</td>
+                    </tr>
+                    <tr>
+                        <td>sopa pac pow</td>
+                        <td>s/. 11.50</td>
+                    </tr>
+
+                    <tr>
+                        <td>sopa fuchifu</td>
+                        <td>s/. 9.50</td>
+                    </tr>
+
+                    <tr>
+                        <td>sopa de pollo con esparrago</td>
+                        <td>s/. 11.50</td>
+                    </tr>
+
+                    <tr>
+                        <td>sopa de pollo con fansi</td>
+                        <td>s/. 12.50</td>
+                    </tr>
+
+                    <tr>
+                        <td>sopa de pollo con verdura</td>
+                        <td>s/. 9.50</td>
+                    </tr>
+
+                    <tr>
+                        <td>sopa woming de pollo</td>
+                        <td>s/. 9.50</td>
+                    </tr>
+
+                    <tr>
+                        <td>sopa woming de pollo(sopera chica)</td>
+                        <td>s/. 27.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>sopa woming de pollo(sopera grande)</td>
+                        <td>s/. 40.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>sopa wantan de pollo</td>
+                        <td>s/. 9.50</td>
+                    </tr>
+
+                    <tr>
+                        <td>sopa wantan de pollo(sopera chica)</td>
+                        <td>s/. 27.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>sopa wantan de pollo(sopera grande)</td>
+                        <td>s/. 40.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>sopa wantan especial(sopera chica)</td>
+                        <td>s/. 33.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>sopa wantan especial(sopera grande)</td>
+                        <td>s/. 48.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>una docena de wantan frito</td>
+                        <td>s/. 10.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>media docena de wantan frito</td>
+                        <td>s/. 5.00</td>
+                    </tr>
+
+
+                </table>
+                <script src="./javascript/carta.js"></script>
+
+            </div>
+            <!-- 炒饭 -->
+            <button onclick="arroz()">Arroces</button>
+            <div id="arroces" class="arroz1">
+                <table>
+                    <tr>
+                        <td>Arroz chaufa especial</td>
+                        <td>s/. 15.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Arroz chaufa con pollo</td>
+                        <td>s/. 14.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Arroz chaufa con chancho asado</td>
+                        <td>s/. 15.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Arroz chaufa con langostino</td>
+                        <td>s/. 16.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Arroz chaufa con carne de res</td>
+                        <td>s/. 15.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Arroz chaufa con pollo en trozo</td>
+                        <td>s/. 16.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Arroz chaufa con pollo(familiar)</td>
+                        <td>s/. 40.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Arroz chaufa especial(familiar)</td>
+                        <td>s/. 43.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Aeropuerto de pollo</td>
+                        <td>s/. 15.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Aeropuerto especial</td>
+                        <td>s/. 16.00</td>
+                    </tr>
+
+
+
+
+                </table>
+            </div>
+            <!-- 面 -->
+            <button onclick="tallarinn()">Tallarines</button>
+            <div id="tallarin" class="tallarin2">
+                <table>
+                    <tr>
+                        <td>Tallarin saltado Taypa</td>
+                        <td>s/. 21.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Tallarin saltado con pollo en trozo</td>
+                        <td>s/. 18.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Tallarin saltado con pollo y verdura</td>
+                        <td>s/. 16.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Tallarin saltado con chancho asado</td>
+                        <td>s/. 17.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Tallarin saltado con langostino</td>
+                        <td>s/. 20.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Tallarin saltado con carne de res</td>
+                        <td>s/. 18.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Tallarin saltado con pollo(familiar)</td>
+                        <td>s/. 46.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Tallarin saltado con pollo en trozo(familiar)</td>
+                        <td>s/. 52.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Tallarin Taypa (familiar)</td>
+                        <td>s/. 62.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Tallarin saltado Sam Si</td>
+                        <td>s/. 19.00</td>
+                    </tr>
+
+
+
+
+
+                </table>
+            </div>
+            <!-- 鸡肉 -->
+            <button onclick="pollo()">Pollo</button>
+            <div id="pollo" class="pollo2">
+                <table>
+                    <tr>
+                        <td>pollo saltado con yuyo chino</td>
+                        <td>s/. 20.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>pollo saltado con champiñon</td>
+                        <td>s/. 19.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>pollo saltado con verduras</td>
+                        <td>s/. 18.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>pollo saltado con Tausi</td>
+                        <td>s/. 18.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>pollo saltado con fansi</td>
+                        <td>s/. 20.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>pollo saltado con frejolito chino</td>
+                        <td>s/. 20.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>pollo con piña</td>
+                        <td>s/. 18.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Chicharron de pollo</td>
+                        <td>s/. 19.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Alitas fritas</td>
+                        <td>s/. 17.00</td>
+                    </tr>
+
+
+
+
+                </table>
+
+            </div>
+            <!-- 猪肉 -->
+            <button onclick="chancho()">Chancho Asado</button>
+            <div id="chancho" class="chancho2">
+                <table>
+                    <tr>
+                        <td>Chancho Asado saltado con yuyo chino</td>
+                        <td>s/. 20.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Chancho Asado saltado con champiñon</td>
+                        <td>s/. 19.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Chancho Asado saltado con verdura</td>
+                        <td>s/. 18.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Chancho Asado con tamarindo</td>
+                        <td>s/. 18.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Chancho Asado con piña</td>
+                        <td>s/. 18.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Chancho Asado saltado con fansi</td>
+                        <td>s/. 20.00</td>
+                    </tr>
+
+
+                    <tr>
+                        <td>Chancho Asado al ajo saltado con verdura </td>
+                        <td>s/. 18.00</td>
+                    </tr>
+
+
+                </table>
+            </div>
+            <!-- 虾肉 -->
+            <button onclick="langostino()">langostino</button>
+            <div id="langostino" class="langostino2">
+                <table>
+                    <tr>
+                        <td>Langostino saltado con verdura</td>
+                        <td>s/. 20.00</td>
+                    </tr>
+
+
+                    <tr>
+                        <td>Langostino saltado con champiñon</td>
+                        <td>s/. 21.00</td>
+                    </tr>
+
+
+                    <tr>
+                        <td>Langostino saltado con yuyo chino</td>
+                        <td>s/. 21.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Langostino saltado con tausi</td>
+                        <td>s/. 21.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Langostino saltado con fansi</td>
+                        <td>s/. 22.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Langostino con piña</td>
+                        <td>s/. 20.00</td>
+                    </tr>
+
+
+                    <tr>
+                        <td>Langostino arrebozado</td>
+                        <td>s/. 20.00</td>
+                    </tr>
+
+
+
+
+                </table>
+
+            </div>
+            <!-- 牛肉 -->
+            <button onclick="res()">Carne de res</button>
+            <div id="res" class="res2">
+                <table>
+                    <tr>
+                        <td>Carne de res saltado con verdura</td>
+                        <td>s/. 18.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Carne de res saltado con frejolito chino</td>
+                        <td>s/. 18.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Carne de res saltado con tausi</td>
+                        <td>s/. 18.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Carne de res saltado con fansi</td>
+                        <td>s/. 20.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Carne de res con tamarindo</td>
+                        <td>s/. 18.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Lomo saltado</td>
+                        <td>s/. 19.00</td>
+                    </tr>
+
+
+                </table>
+
+            </div>
+            <!-- 煎蛋 -->
+            <button onclick="tortilla()">Tortilla</button>
+            <div id="tortilla" class="tortilla2">
+                <table>
+                    <tr>
+                        <td>Tortilla de pollo y verduras</td>
+                        <td>s/. 13.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Tortilla de chancho asado y verdura</td>
+                        <td>s/. 13.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Tortilla de langostino y verdura</td>
+                        <td>s/. 14.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Tortilla de verduras</td>
+                        <td>s/. 12.00</td>
+                    </tr>
+
+
+                </table>
+
+            </div>
+            <!-- combinado -->
+            <button onclick="combinado()">Combinado</button>
+            <div id="combinado" class="combinado2">
+                <table>
+                    <tr>
+                        <td>Combinado de pollo</td>
+                        <td>s/. 17.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Combinado de chancho asado</td>
+                        <td>s/. 18.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Combinado de langostino</td>
+                        <td>s/. 20.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Combinado especial</td>
+                        <td>s/. 20.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Combinado de Taypa</td>
+                        <td>s/. 21.00</td>
+                    </tr>
+
+
+
+                </table>
+            </div>
+            <!-- 特别餐 -->
+            <button onclick="especial()">Platos Especiales</button>
+            <div id="platosE" class="platosE2">
+                <table>
+                    <tr>
+                        <td>Kam Lung "Fung Seng"</td>
+                        <td>s/. 21.00</td>
+                    </tr>
+
+
+                    <tr>
+                        <td>polllo Taypa</td>
+                        <td>s/. 21.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>polllo chijaukay</td>
+                        <td>s/. 18.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>polllo tipakay</td>
+                        <td>s/. 18.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>polllo lenmonkay</td>
+                        <td>s/. 18.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>polllo enrrollado con esparrago</td>
+                        <td>s/. 18.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>polllo cinco sabores</td>
+                        <td>s/. 18.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>huevo codorniz con verdura</td>
+                        <td>s/. 18.00</td>
+                    </tr>
+
+
+                    <tr>
+                        <td>pescado con piña</td>
+                        <td>s/. 18.00</td>
+                    </tr>
+
+
+
+
+                </table>
+            </div>
+            <!-- 套餐 -->
+            <button onclick="combo()">Combo familiar</button>
+            <div id="combo" class="combo2">
+                <div class="combo-inter">
+                    <img src="./imagen/combo1.jpg" />
+                    <img src="./imagen/combo2.jpg" />
+                    <img src="./imagen/combo3.jpg" />
+                    <img src="./imagen/combo4.jpg" />
+                    <img src="./imagen/combo5.jpg" />
+
+
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <div id="recomendar">
+            <div class="expli">
+                <h1>
+                    No sabes que comer ?
+                </h1>
+                <p id="expli1">descuida nosotros te podemos ayudar , solo necesitas dar comenzar y seguir los pasos que
+                    indica </p>
+            </div>
+            <div class="encues">
+                <button id="boton1" onclick="comenzar()">Comenzar</button>
+            </div>
+            <div id="encuesta1">
+                <p id="elejir">elegir ...</p>
+                <div id="bon">
+                    <button id="btn2">Salado</button>
+                    <button id="btn3">dulce</button>
+                </div>
+                <div id="bon2" style="display:none;">
+                    <button id="btn4">Frituras</button>
+                    <button id="btn5">Verduras</button>
+                    <button id="btn6">Ambos juntos</button>
+                    <button id="btn7">Tallarines</button>
+                </div>
+                <div id="bon3" style="display: none;">
+                    <button id="btn8">pollo</button>
+                    <button id="btn9">chancho</button>
+                    <button id="btn10">carne de res</button>
+                    <button id="btn11">langostino</button>
+                    <button id="btn12">todo juntos</button>
+
+                </div>
+                
+            </div>
+            <div id="PL" style="display: none;">
+                <div id="P1" style="display:none;">
+                    <ol>
+                        <li>pollo chijaukay con arroz chaufa</li>
+                        <li>pollo tipakay con arroz chaufa</li>
+                        <li>pollo enrrollado con arroz chaufa</li>
+                        <li>pollo enrrollado con tamarindo</li>
+                        <li>alita de pollo frito con arroz chaufa</li>
+                        <li>linmonkay con arroz chaufa</li>
+                        <li>triple( chijaukay + tipakay + chaufa )</li>
+                        <li>chicharron de pollo con arroz chaufa</li>
+                        <li>langostino arrebozado con arroz chaufa</li>
+                    </ol>
+                </div>
+                <div id="P2" style="display: none;">
+                    <ol>
+                        <li>pollo con verduras y arroz chaufa</li>
+                        <li>pollo saltado con yuyo y verduras y arroz chaufa</li>
+                        <li>pollo con frejolito chino y arroz chaufa</li>
+                        <li>combinado de pollo</li>
+                        <li>pollo saltado y arroz chaufa</li>
+                        <li>tortilla de pollo y verduras y arroz chaufa</li>
+                        <li>pollo con tausi y arroz chaufa</li>
+                    </ol>
+                
+                </div>
+                <div id="P3" style="display: none;">
+                    <ol>
+                        <li>chancho asado saltado con verduras y arroz chaufa</li>
+                        <li>chancho asado al ajo saltado con verduras y arroz chaufa</li>
+                        <li>chancho asado saltado con frejolito chino y arroz chaufa</li>
+                        <li>combinado con chancho asado</li>
+                    </ol>
+                
+                </div>
+                <div id="P4" style="display: none;">
+                    <ol>
+                        <li>carne de res saltado con verduras</li>
+                        <li>lomo saltado de carne y arroz chaufa</li>
+                        <li>carne de res saltado con frejolito chino y arroz chaufa</li>
+                    </ol>
+                
+                </div>
+                <div id="P5" style="display: none;">
+                    <ol>
+                        <li>langostino saltado con verduras y arroz chaufa</li>
+                    </ol>
+                
+                </div>
+                <div id="P6" style="display: none;">
+                    <ol>
+                        <li>taypa con arroz chaufa</li>
+                    </ol>
+                
+                </div>
+                <div id="P7" style="display: none;">
+                    <ol>
+                        <li>pollo enrrollado con verduras y arroz chaufa</li>
+                        <li>pescado con verduras y arroz chaufa</li>
+                        <li>pollo en trozo con champiñones y verduras y arroz chaufa</li>
+                        <li>alitas fritas saltado con verduras y arroz chaufa</li>
+                    </ol>
+                
+                
+                </div>
+                <div id="P8" style="display: none;">
+                    <ol>
+                        <li>tallarin saltado de pollo y verduras</li>
+                        <li>tallarin saltado de chancho y verduras</li>
+                        <li>tallarin saltado de carne de res y verduras </li>
+                        <li>tallarin saltado de langostino y verduras</li>
+                        <li>tallarin con pollo en trozo</li>
+                        <li>tallarin taypa</li>
+                    </ol>
+                
+                </div>
+                <div id="P9" style="display: none;">
+                    <ol>
+                        <li>pollo con piña y arroz chaufa</li>
+                        <li>chancho con tamarindo y arroz chaufa</li>
+                        <li>kam lu wantan y arroz chaufa</li>
+                        <li>pescado con piña y arroz chaufa</li>
+                        <li>langostino con piña y arroz chaufa</li>
+                        <li>pollo enrrollado con piña y arroz chaufa</li>
+                        <li>alita frita con piña y arroz chaufa</li>
+                        
+                    </ol>
+                </div>
+                <button onclick="vol()">volver</button>
+        
+            </div>
+        </div>
+        <script src="./javascript/encuesta.js"></script>
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+</body>
+
+
+</html>

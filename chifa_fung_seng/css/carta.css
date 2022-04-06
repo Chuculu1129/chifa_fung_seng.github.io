@@ -1,0 +1,334 @@
+.titulo h1 {
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(213, 233, 29);
+    font-size: 50px;
+}
+
+#contenedor {
+    width: 70%;
+    margin: auto;
+    background-image: url(../imagen/fondo3.jpg);
+    background-repeat: repeat;
+    padding: 10px;
+}
+
+.interior-1 h3 {
+    text-align: center;
+    color: rgb(65, 107, 107);
+
+}
+
+.interior-1 h1 {
+    color: rgb(172, 118, 49);
+    text-shadow: 5px 5px 5px rgb(5, 5, 5);
+    font-size: 50px;
+
+}
+
+/* menu */
+
+.interior-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+}
+
+.box {
+    width: 200px;
+    border: 1px solid grey;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.box h2 {
+    color: black;
+    text-decoration: underline;
+}
+
+.box h2:hover {
+    background-color: white;
+}
+
+.box p {
+    text-align: end;
+    color: rgb(54, 5, 123);
+    font-size: 20px;
+
+
+}
+
+.box button {
+    float: right;
+
+}
+
+.box p:hover {
+    background-color: rgb(197, 154, 98);
+
+}
+
+.especificacion{
+    width: 400px;
+    min-height: 300px;
+    background-image: url(../imagen/fondo4.jpg);
+    background-repeat: repeat;
+    position: fixed;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    display: none;
+
+}
+
+.especificacion h4{
+    text-decoration: underline;
+}
+
+.especi{
+display: block;
+}
+
+
+
+
+/* 正餐 */
+/* 汤 */
+#carta {
+    background-color: antiquewhite;
+    padding: 30px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+#carta p {
+    padding-right: 30px;
+    font-size: 25px;
+}
+
+/* 按钮 */
+#carta button {
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: blueviolet;
+    color: white;
+}
+
+.sopa2 {
+    display: none;
+    padding: 20px;
+
+
+}
+
+.sopa1 {
+    display: block;
+}
+
+/* 饭 */
+.arroz1 {
+    display: none;
+    padding: 20px;
+}
+
+.arroz2 {
+    display: block;
+}
+
+/* 面 */
+.tallarin2 {
+    display: none;
+    padding: 20px;
+}
+
+.tallarin3 {
+    display: block;
+}
+
+/* 鸡肉 */
+.pollo2 {
+    display: none;
+    padding: 20px;
+}
+
+.pollo3 {
+    display: block;
+}
+
+/* 猪肉 */
+.chancho2 {
+    display: none;
+    padding: 20px;
+}
+
+.chancho3{
+    display: block;
+}
+
+/* 虾肉 */
+.langostino2 {
+    display: none;
+    padding: 20px;
+}
+
+.langostino3{
+    display: block;
+}
+
+/* 牛肉 */
+.res2 {
+    display: none;
+    padding: 20px;
+}
+
+.res3{
+    display: block;
+}
+
+/* 煎蛋 */
+.tortilla2 {
+    display: none;
+    padding: 20px;
+}
+
+.tortilla3{
+    display: block;
+}
+
+/* combinado */
+.combinado2 {
+    display: none;
+    padding: 20px;
+}
+
+.combinado3{
+    display: block;
+}
+
+/* 特别餐 */
+.platosE2 {
+    display: none;
+    padding: 20px;
+}
+
+.platosE3{
+    display: block;
+}
+
+/* 套餐 */
+.combo-inter img {
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+
+}
+
+.combo2{
+    display: none;
+    padding: 20px;
+
+}
+
+.combo3{
+    display: block;
+}
+
+/* 推荐功能 */
+#recomendar{
+    background-color: antiquewhite;
+    padding: 30px;
+    margin: 50px;
+    text-align: center;
+}
+
+.expli h1{
+    color: blue;
+    text-decoration: underline;
+}
+
+#recomendar button{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+
+}
+
+#encuesta1{
+    display: none;
+}
+
+.bon{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#recomendar button{
+    margin: 10px;
+    
+}
+
+
+/* 屏幕适应 */
+
+@media(max-width:1000px) {
+
+    #contenedor {
+        width: 90%;
+        margin: auto;
+    }
+
+    .especificacion{
+        width: 300px;
+    }
+}
+
+@media(max-width:786px) {
+    td {
+        font-size: 14px;
+    }
+
+}
+
+@media(max-width:500px) {
+
+    /* menu */
+
+    .box {
+        width: 140px;
+        height: 140px;
+    }
+
+    .box h2 {
+        font-size: 14px;
+    }
+
+    /* 正餐 */
+
+    #contenedor {
+        padding: 5px;
+    }
+
+    #carta {
+        margin: 5px;
+
+    }
+
+    #recomendar{
+        margin: 5px;
+    }
+
+    #carta p {
+        font-size: 16px;
+    }
+
+    td {
+        font-size: 12px;
+    }
+
+}
