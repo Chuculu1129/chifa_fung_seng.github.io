@@ -102,6 +102,7 @@ body{
     background-image: url(../imagen/fondo1.jpg);
     
     
+    
  
 
 }
@@ -152,8 +153,10 @@ body{
 @media(max-width:500px){
     .cabeza1-1{
         font-size: 15px;
-        width:300px;
+        width: 300px;
     }
+
+    
 
     
 }
