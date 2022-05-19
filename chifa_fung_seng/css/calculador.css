@@ -1,0 +1,408 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../imagen/fondo4.jpg);
+    background-repeat: repeat;
+}
+
+/* 头框 */
+header{
+    display: flex;
+    border-bottom: 2px solid black;
+    background-color: white;
+    align-items: center;
+   
+
+}
+
+header button{
+    width: 30px;
+    height: 50px;
+    margin-left: 5px;
+}
+
+.logo{
+    max-width: 100px;
+}
+
+.logo img{
+    width: 100%;
+}
+
+/* 身躯 */
+#cuerpo{
+    display: flex;
+    padding: 50px;
+}
+
+/* 区域1 */
+.part-1{
+    background-color: antiquewhite;
+    padding: 20px 100px;
+    height: 400px;
+    border: 1px solid gray;
+    display: none;
+    
+}
+
+.part-1 h2{
+    background-color: rgb(79, 79, 147);
+    padding: 10px 40px 10px 40px;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+
+.part-1 h1{
+    padding: 10px 40px 10px 40px;
+
+}
+
+.part-11{
+    display: block;
+}
+
+/* 区域2 */
+#part-2{
+    width: 65%;
+ 
+}
+
+.plato{
+    display: none;
+    position: fixed;
+    background-color: rgb(223, 206, 206);
+    padding: 30px;
+}
+
+.plato3{
+    display: block;
+}
+
+.menus{
+    display: none;
+}
+
+.menus3{
+    display: block;
+}
+
+.platoC2{
+    display: none;
+    position: fixed;
+    background-color: rgb(223, 206, 206);
+    padding: 30px;
+}
+
+.platoC3{
+    display: block;
+}
+
+.platoA2{
+    display: none;
+    position: fixed;
+    background-color: rgb(223, 206, 206);
+    padding: 30px;
+}
+
+.platoA3{
+    display: block;
+}
+
+.platoT2{
+    display: none;
+    position: fixed;
+    background-color: rgb(223, 206, 206);
+    padding: 30px;
+}
+
+.platoT3{
+    display: block;
+}
+
+.platoP2{
+    display: none;
+    position: fixed;
+    background-color: rgb(223, 206, 206);
+    padding: 30px;
+}
+
+.platoP3{
+    display: block;
+}
+
+.platoCH2{
+    display: none;
+    position: fixed;
+    background-color: rgb(223, 206, 206);
+    padding: 30px;
+}
+
+.platoCH3{
+    display: block;
+}
+
+.platoL2{
+    display: none;
+    position: fixed;
+    background-color: rgb(223, 206, 206);
+    padding: 30px;
+}
+
+.platoL3{
+    display: block;
+}
+
+.platoCR2{
+    display: none;
+    position: fixed;
+    background-color: rgb(223, 206, 206);
+    padding: 30px;
+}
+
+.platoCR3{
+    display: block;
+}
+
+.platoTR2{
+    display: none;
+    position: fixed;
+    background-color: rgb(223, 206, 206);
+    padding: 30px;
+}
+
+.platoTR3{
+    display: block;
+}
+
+.platoCM2{
+    display: none;
+    position: fixed;
+    background-color: rgb(223, 206, 206);
+    padding: 30px;
+}
+
+.platoCM3{
+    display: block;
+}
+
+.platoE2{
+    display: none;
+    position: fixed;
+    background-color: rgb(223, 206, 206);
+    padding: 30px;
+}
+
+.platoE3{
+    display: block;
+}
+
+
+
+/* 区域3 */
+#part-3{
+    width: 35%;
+    border: 2px solid rgb(145, 145, 145);
+    background-color: rgba(255, 205, 119, 0.837);
+    min-height: 500px;
+}
+
+.content{
+    text-align: center;
+    padding: 10px;
+}
+
+.conteo{
+    min-height: 200px;
+    background-color: gray;
+}
+
+.content button{
+    margin-top: 10px;
+}
+
+.resultado{
+    background-color: gray;
+    min-height: 50px;
+}
+
+.vuelto h4{
+    text-decoration: underline;
+}
+
+.vuelto input{
+    width: 100%;
+
+}
+
+#vueltito{
+    background-color: wheat;
+}
+
+/* 餐 */
+
+.sopas{
+    display:none;
+}
+
+.sopas3{
+    display: block;
+}
+
+.carta{
+    display: none;
+}
+
+.carta3{
+    display: block;
+}
+
+.precio{
+    display: none;
+}
+
+.precio3{
+    display: block;
+}
+
+.ss{
+    display: none;
+    position: fixed;
+    background-color: rgb(223, 206, 206);
+    padding: 30px;
+}
+
+.ss3{
+    display: block;
+}
+
+.arroz{
+    display: none;
+}
+
+.arroz2{
+    display: block;
+}
+
+.tallarin{
+    display: none;
+}
+
+.tallarin2{
+    display: block;
+}
+
+.pollo{
+    display: none;
+}
+
+.pollo2{
+    display: block;
+}
+
+.chancho{
+    display: none;
+}
+
+.chancho2{
+    display: block;
+}
+
+.langostino{
+    display: none;
+}
+
+.langostino2{
+    display: block;
+}
+
+.carne{
+    display: none;
+}
+
+.carne2{
+    display: block;
+}
+
+.tortilla{
+    display: none;
+}
+
+.tortilla2{
+    display: block;
+}
+
+.combinado{
+    display: none;
+}
+
+.combinado2{
+    display: block;
+}
+
+.especial{
+    display: none;
+}
+
+.especial2{
+    display: block;
+}
+
+
+/* 后期上色 */
+
+.titulo{
+    background-color: rgb(239, 92, 92);
+    border-color: bisque;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.subtitulo{
+    background-color: rgb(237, 237, 110);
+    border-color: bisque;
+
+}
+
+
+@media(max-width:500px){
+
+    .titulo{
+        font-size: 15px;
+    }
+
+    .subtitulo{
+        font-size: 15px;
+        padding: 8px;
+    }
+
+    .content h1{
+        font-size: 25px;
+    }
+
+    .resultado p{
+        font-size: 10px;
+    }
+
+    .vuelto h4{
+        font-size: 8px;
+    }
+
+    #cuerpo{
+        flex-direction: column;
+    }
+
+    #part-3{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #part-2{
+        width: 100%;
+    }
+
+
+
+
+}
+  
+ 

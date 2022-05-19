@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>计算机</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/calculador.css" />
+    <meta charset="UTF-8" />
+    <script src="vue.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="./iconos/fontawesome-free-6.1.1-web/css/all.css" />
+</head>
+
+<body>
+    <!-- 头框 -->
+    <header>
+   
+        <div class="logo">
+            <img src="./imagen/logo1.jpg" />
+        </div>
+    </header>
+
+    <!-- 区域1 -->
+    <div id="menu" class="part-1">
+        <h1>菜单</h1>
+        <h2>计算机</h2>
+    </div>
+    <!-- 身躯 -->
+    <div id="cuerpo">
+
+        <!-- 区域2 -->
+        <div id="part-2">
+            <div class="precios">
+                <!-- 便宜餐 -->
+                <button onclick="menus()" class="titulo">便宜餐（menu）</button>
+                <div id="menus1" class="menus">
+
+                    <!-- aeropuerto -->
+
+                    <button onclick="aeropuerto()">1. Aeropuerto de pollo</button>
+                    <div id="plato1" class="plato">
+                        <p id="nombre"></p>
+                        <p>打包 :</p>
+                        <input onclick="wantan()" type="checkbox" name="text" />wantan
+                        <input onclick="sopa()" type="checkbox" name="text" />sopa
+                        <br />
+                        <br />
+                        <button onclick="enviar()">提交</button>
+                    </div>
+
+                    <!-- chaufa -->
+                    <br />
+                    <button onclick="chaufa()">2. chaufa con pollo</button>
+                    <div id="plato1" class="plato">
+                        <p>打包 :</p>
+                        <input onclick="wantan()" type="checkbox" name="text" />wantan
+                        <input onclick="sopa()" type="checkbox" name="text" />sopa
+                        <br />
+                        <button onclick="enviar()">提交</button>
+                    </div>
+
+                    <!-- tallarin de pollo -->
+                    <br />
+                    <button onclick="tallarinP()">3. tallarin de pollo</button>
+                    <div id="plato1" class="plato">
+                        <p>打包 :</p>
+                        <input onclick="wantan()" type="checkbox" name="text" />wantan
+                        <input onclick="sopa()" type="checkbox" name="text" />sopa
+                        <br />
+                        <button onclick="enviar()">提交</button>
+                    </div>
+
+                    <!-- tallarin de chancho -->
+                    <br />
+                    <button onclick="tallarinC()">4. tallarin de chancho</button>
+
+                    <!-- pollo con verdura -->
+                    <br />
+                    <button onclick="shisankuaiban()">5. pollo con verduras</button>
+
+                    <!-- chancho con verduras -->
+                    <br />
+                    <button onclick="shisankuaiban()">6. chancho con verduras</button>
+
+                    <br />
+                    <button onclick="shisankuaiban()">7. chancho con tamarindo</button>
+
+                    <br />
+                    <button onclick="shisankuaiban()">8. chijaukay</button>
+
+                    <br />
+                    <button onclick="shisankuaiban()">9. tipakay</button>
+
+                    <br />
+                    <button onclick="shisankuaiban()">10. pollo enrrollado</button>
+
+                    <br />
+                    <button onclick="shisikuai()">11. pollo enrrollado con verduras</button>
+
+                    <br />
+                    <button onclick="polloY()">12. pollo con yuyo</button>
+
+                    <br />
+                    <button onclick="aeropuerto()">13. combinado de pollo</button>
+
+                    <br />
+                    <button onclick="shisankuaiban()">14. chancho ajo</button>
+
+                    <br />
+                    <button onclick="shisankuaiban()">15. pollo con frejolito</button>
+
+                    <br />
+                    <button onclick="kalu()">16. kamlu wantan</button>
+
+                    <br />
+                    <button onclick="shisankuaiban()">17. tortilla de pollo</button>
+
+                    <br />
+                    <button onclick="kalu()">18. lomo saltado</button>
+
+                    <br />
+                    <button onclick="shisankuaiban()">19. pescado con pi;a</button>
+
+                    <br />
+                    <button onclick="shisankuaiban()">20. chancho tamarindo y tallarin</button>
+
+                    <br />
+                    <button onclick="shisankuaiban()">21. pollo con pi;a</button>
+
+                    <br />
+                    <button onclick="shisikuai()">22. carne de res con verdura</button>
+
+                    <br />
+                    <button onclick="shisankuaiban()">23. pescado con verduras</button>
+
+                    <br />
+                    <button onclick="chaufaC()">24. chaufa de changho</button>
+
+                    <br />
+                    <button onclick="shisankuaiban()">25. combinado de chancho</button>
+
+                    <br />
+                    <button onclick="shisankuaiban()">26. pollo enrrollado con tamarindo</button>
+
+                    <br />
+                    <button onclick="pollotrozo()">27. pollo en trozo con champi;on</button>
+
+                    <br />
+                    <button onclick="pollotrozo()">28. tallarin con pollo en trozo</button>
+
+                    <br />
+                    <button onclick="taypaC()">29. pollo taypa chaufa</button>
+
+                    <br />
+                    <button onclick="shisikuai()">30. alita de pollo</button>
+
+                    <br />
+                    <button onclick="polloY()">31. tallarin de langostino</button>
+
+                    <br />
+                    <button onclick="pollotrozo()">32. tallarin de carne</button>
+
+                    <br />
+                    <button onclick="polloY()">33. langostino con verdura y chaufa</button>
+
+                    <br />
+                    <button onclick="shisankuaiban()">34. pollo con tausi</button>
+
+                    <br />
+                    <button onclick="shisankuaiban()">35. pollo limonkay</button>
+
+                    <br />
+                    <button onclick="triple()">36. triple</button>
+
+                    <br />
+                    <button onclick="taypaC()">37. chicharron de pollo con arroz</button>
+
+                    <br />
+                    <button onclick="polloY()">38. langostino con pi;a</button>
+
+                    <br />
+                    <button onclick="taypaT()">39. tallarin taypa</button>
+
+                    <br />
+                    <button onclick="kalu()">40. aeropuerto de chancho</button>
+
+                    <br />
+                    <button onclick="kalu()">41. pollo enrrollado con pi;a</button>
+
+                    <br />
+                    <button onclick="pollotrozo()">42. pollo en trozo con pi;a</button>
+
+                    <br />
+                    <button onclick="kalu()">43. chancho con frejolito</button>
+
+                    <br />
+                    <button onclick="kalu()">44. carne de res saltado con frejolito</button>
+
+                    <br />
+                    <button onclick="pollotrozo()">45. pollo en trozo con frejolito</button>
+
+                    <br />
+                    <button onclick="pollotrozo()">46. alita con pi;a</button>
+
+                    <br />
+                    <button onclick="pollotrozo()">47. alita con verdura</button>
+
+                    <br />
+                    <button onclick="pollotrozo()">48. huevo codorniz con verdura</button>
+
+                    <br />
+                    <button onclick="taypaC()">49. langostino arrebozado</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+
+                <!-- 正餐 -->
+                <button onclick="carta()" class="titulo">正餐（carta)</button>
+                <div id="carta1" class="carta">
+                    <!-- sopa -->
+                    <button onclick="sopas()" class="subtitulo">Sopa</button>
+                    <div id="sopas1" class="sopas">
+                        <button onclick="oncecincuenta()">Sopa wantan especial</button>
+                        <div id="platoC" class="platoC2">
+                            <p>若是打包请勾选</p>
+                            <input onclick="llevar()" type="checkbox" name="texto" />打包
+                            <button onclick="enviar3()">提交</button>
+
+                        </div>
+                        <br/>
+                        <button onclick="oncecincuenta()">Sopa woming especial</button>
+                        <br/>
+                        <button onclick="oncecincuenta()">sopa pac pow</button>
+                        <br/>
+                        <button onclick="nuevecincuenta()">sopa fuchifu</button>
+                        <br/>
+                        <button onclick="oncecincuenta()">sopa de pollo con esparrago</button>
+                        <br/>
+                        <button onclick="docecincuenta()">sopa de pollo con fansi</button>
+                        <br/>
+                        <button onclick="nuevecincuenta()">sopa de pollo con verdura</button>
+                        <br/>
+                        <button onclick="nuevecincuenta()">sopa woming de pollo</button>
+                        <br/>
+                        <button onclick="dossiete()">sopa woming de pollo (sopera chica)</button>
+                        <br/>
+                        <button onclick="sopera2()">sopa woming de pollo (sopera grande)</button>
+                        <br/>
+                        <button onclick="nuevecincuenta()">sopa wantan de pollo</button>
+                        <br/>
+                        <button onclick="dossiete()">sopa wantan de pollo (sopera chica)</button>
+                        <br/>
+                        <button onclick="sopera2()">sopa wantan de pollo (sopera grande)</button>
+                        <br/>
+                        <button onclick="sopera3()">sopa wantan especial (sopera chica)</button>
+                        <br/>
+                        <button onclick="sopera4()">sopa wantan especial (sopera grande)</button>
+                        <br/>
+                        <button onclick="diez()">una docena de wantan frita</button>
+                        <br/>
+                        <button onclick="cinco()">media docena de wantan frita</button>
+
+
+
+
+                        
+                       
+                    </div>
+                    <br/>
+                    <!-- arroz -->
+                    <button onclick="arroz()" class="subtitulo">Arroz</button>
+                    <div id="arroz1" class="arroz">
+                        <button onclick="quince()">Arroz chaufa especial</button>
+                        <div id="platoA" class="platoA2">
+                            <p>若是打包请勾选</p>
+                            <input onclick="llevar()" type="checkbox" name="texto" />打包
+                            <button onclick="enviar4()">提交</button>
+
+                        </div>
+                        <br/>
+                        <button onclick="catorce1()">Arroz chaufa de pollo</button>
+                        <br/>
+                        <button onclick="quince()">Arroz chaufa de chancho</button>
+                        <br/>
+                        <button onclick="diesiseis1()">Arroz chaufa de langostino</button>
+                        <br/>
+                        <button onclick="quince()">Arroz chaufa de carne</button>
+                        <br/>
+                        <button onclick="diesiseis1()">Arroz chaufa con pollo en trozo</button>
+                        <br/>
+                        <button onclick="cuarenta()">Arroz chaufa de pollo (familiar)</button>
+                        <br/>
+                        <button onclick="cuarentatres()">Arroz chaufa especial (familiar)</button>
+                        <br/>
+                        <button onclick="quince()">Aeropuerto de pollo</button>
+                        <br/>
+                        <button onclick="diesiseis1()">Aeropuerto especial</button>
+
+
+
+                        
+                    </div>
+                    <br/>
+                    <!-- tallarin -->
+                    <button onclick="tallarin()" class="subtitulo">tallarin</button>
+                    <div id="tallarin1" class="tallarin">
+                        <button onclick="veintiuno()">Tallarin taypa</button>
+                        <div id="platoT" class="platoT2">
+                            <p>若是打包请勾选</p>
+                            <input onclick="llevar()" type="checkbox" name="texto" />打包
+                            <button onclick="enviar5()">提交</button>
+                        </div>
+                        <br/>
+                        <button onclick="diesiocho()">Tallarin con pollo en trozo</button>
+                        <br/>
+                        <button onclick="diesiseis()">Tallarin con pollo y verduras</button>
+                        <br/>
+                        <button onclick="diesisiete()">Tallarin con chancho</button>
+                        <br/>
+                        <button onclick="veinte2()">Tallarin con langostino</button>
+                        <br/>
+                        <button onclick="diesiocho()">Tallarin con carne de res</button>
+                        <br/>
+                        <button onclick="cuatroseis()">Tallarin con pollo (familiar)</button>
+                        <br/>
+                        <button onclick="cincodos()">Tallarin con pollo en trozo (familiar)</button>
+                        <br/>
+                        <button onclick="seisdos()">Tallarin taypa (familiar)</button>
+                        <br/>
+                        <button onclick="dieznueve2()">Tallarin sam si </button>
+
+                    </div>
+                    <br/>
+                    <!-- pollo -->
+                    <button onclick="pollo()" class="subtitulo">Pollo</button>
+                    <div id="pollo1" class="pollo">
+                        <button onclick="veinte3()">pollo con yuyo</button>
+                        <div id="platoP" class="platoP2">
+                            <p>若是打包请勾选</p>
+                            <input onclick="llevar()" type="checkbox" name="texto" />打包
+                            <button onclick="enviar6()">提交</button>
+                        </div>
+                        <br/>
+                        <button onclick="dieznueve3()">pollo en trozo con champi;on</button>
+                        <br/>
+                        <button onclick="diezocho3()">pollo saltado con verdura</button>
+                        <br/>
+                        <button onclick="diezocho3()">pollo saltado con tausi</button>
+                        <br/>
+                        <button onclick="veinte3()">pollo con fansi</button>
+                        <br/>
+                        <button onclick="veinte3()">pollo con frejolito chino</button>
+                        <br/>
+                        <button onclick="diezocho3()">pollo con pi;a</button>
+                        <br/>
+                        <button onclick="dieznueve3()">chicharron de pollo</button>
+                        <br/>
+                        <button onclick="diezsiete3()">alita frita</button>
+                        
+
+
+
+
+                    </div>
+                    <br/>
+                    <!-- chancho -->
+                    <button onclick="chancho()" class="subtitulo">Chancho</button>
+                    <div id="chancho1" class="chancho">
+                        <button onclick="veinte4()">chancho con yuyo</button>
+                        <div id="platoCH" class="platoCH2">
+                            <p>若是打包请勾选</p>
+                            <input onclick="llevar()" type="checkbox" name="texto" />打包
+                            <button onclick="enviar7()">提交</button>
+                        </div>
+                        <br/>
+                        <button onclick="dieznueve4()">chancho con champi;on</button>
+                        <br/>
+                        <button onclick="diezocho4()">chancho con verdura</button>
+                        <br/>
+                        <button onclick="diezocho4()">chancho con tamarindo</button>
+                        <br/>
+                        <button onclick="veinte4()">chancho con fansi</button>
+                        <br/>
+                        <button onclick="diezocho4()">chancho al ajo con verdura</button>
+                        
+
+
+                    </div>
+                    <br/>
+                    <!-- langostino -->
+                    <button onclick="langostino()" class="subtitulo">Langostino</button>
+                    <div id="langostino1" class="langostino">
+                        <button onclick="veinte6()">langostino con verdura</button>
+                        <div id="platoL" class="platoL2">
+                            <p>若是打包请勾选</p>
+                            <input onclick="llevar()" type="checkbox" name="texto" />打包
+                            <button onclick="enviar8()">提交</button>
+                        </div>
+                        <br/>
+                        <button onclick="veinteuno6()">langostino con champi;on</button>
+                        <br/>
+                        <button onclick="veinteuno6()">langostino con yuyo</button>
+                        <br/>
+                        <button onclick="veinteuno6()">langostino con tausi</button>
+                        <br/>
+                        <button onclick="veintedos6()">langostino con fansi</button>
+                        <br/>
+                        <button onclick="veinte6()">langostino con pi;a</button>
+                        <br/>
+                        <button onclick="veinte6()">langostino arrebozado</button>
+                    </div>
+                    <br/>
+                    <!-- carne de res -->
+                    <button onclick="carne()" class="subtitulo">carne de res</button>
+                    <div id="carne1" class="carne">
+                        <button onclick="diezocho7()">carne con verdura</button>
+                        <div id="platoCR" class="platoCR2">
+                            <p>若是打包请勾选</p>
+                            <input onclick="llevar()" type="checkbox" name="texto" />打包
+                            <button onclick="enviar9()">提交</button>
+                        </div>
+                        <br/>
+                        <button onclick="diezocho7()">carne con frejolito</button>
+                        <br/>
+                        <button onclick="diezocho7()">carne con tausi</button>
+                        <br/>
+                        <button onclick="veinte7()">carne con fansi</button>
+                        <br/>
+                        <button onclick="diezocho7()">carne con tamarindo</button>
+                        <br/>
+                        <button onclick="dieznueve7()">Lomo saltado</button>
+
+                    </div>
+                    <br/>
+                    <!-- tortilla -->
+                    <button onclick="tortilla()" class="subtitulo">tortilla</button>
+                    <div id="tortilla1" class="tortilla">
+                        <button onclick="trece8()">tortilla de pollo</button>
+                        <div id="platoTR" class="platoTR2">
+                            <p>若是打包请勾选</p>
+                            <input onclick="llevar()" type="checkbox" name="texto" />打包
+                            <button onclick="enviar10()">提交</button>
+                        </div>
+                        <br/>
+                        <button onclick="trece8()">tortilla de chancho</button>
+                        <br/>
+                        <button onclick="catorce8()">tortilla de langostino</button>
+                        <br/>
+                        <button onclick="doce8()">tortilla de verduras</button>
+
+                    </div>
+                    <br/>
+                    <!-- combinado -->
+                    <button onclick="combinado()" class="subtitulo">combinado</button>
+                    <div id="combinado1" class="combinado">
+                        <button onclick="diezsiete5()">combinado de pollo</button>
+                        <div id="platoCM" class="platoCM2">
+                            <p>若是打包请勾选</p>
+                            <input onclick="llevar()" type="checkbox" name="texto" />打包
+                            <button onclick="enviar11()">提交</button>
+                        </div>
+                        <br/>
+                        <button onclick="diezocho5()">combinado de chancho</button>
+                        <br/>
+                        <button onclick="veinte5()">combinado de langostino</button>
+                        <br/>
+                        <button onclick="veinte5()">combinado de especial</button>
+                        <br/>
+                        <button onclick="veinteuno5()">combinado de taypa</button>
+                    
+                    </div>
+                    <br/>
+                    <!-- platos especial -->
+                    <button onclick="especial()" class="subtitulo">plato especial</button>
+                    <div id="especial1" class="especial">
+                        <button onclick="veinteuno9()">kalu wantan</button>
+                        <div id="platoE" class="platoE2">
+                            <p>若是打包请勾选</p>
+                            <input onclick="llevar()" type="checkbox" name="texto" />打包
+                            <button onclick="enviar12()">提交</button>
+                        </div>
+                        <br/>
+                        <button onclick="veinteuno9()">pollo taypa</button>
+                        <br/>
+                        <button onclick="diezocho9()">pollo chijaukay</button>
+                        <br/>
+                        <button onclick="diezocho9()">pollo tipakay</button>
+                        <br/>
+                        <button onclick="diezocho9()">pollo lenmonkay</button>
+                        <br/>
+                        <button onclick="diezocho9()">pollo enrrollado</button>
+                        <br/>
+                        <button onclick="diezocho9()">pollo cinco sabores</button>
+                        <br/>
+                        <button onclick="diezocho9()">huevo codorniz con verduras</button>
+                        <br/>
+                        <button onclick="diezocho9()">pescado con pi;a</button>
+                        <br/>
+
+                    </div>
+
+
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+        <!-- 区域3 -->
+        <div id="part-3">
+            <div class="content">
+                <h1>计算</h1>
+                <div class="conteo">
+                    <p id="suma"></p>
+                </div>
+
+                <div class="resultado">
+                    <p>总共消费 ： </p>
+                    <p id="total"></p>
+                </div>
+
+                <button onclick="sumar()">结算</button>
+                <button onclick="nuevo()">重新</button>
+
+                <div class="vuelto">
+                    <h4>客户支付</h4>
+                    <div class="box">
+                        <input type="number"  pattern="\d*" id="pagaCon">
+                        <button onclick="dar()">需要找</button>
+
+                    </div>
+                    <p id="vueltito"></p>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <script src="./javascript/calculador.js"></script>
+    <script src="./javascript/sopa.js"></script>
+    <script src="./javascript/arroz.js"></script>
+    <script src="./javascript/tallarin.js"></script>
+    <script src="./javascript/pollo.js"></script>
+    <script src="./javascript/chancho.js"></script>
+    <script src="./javascript/langostino.js"></script>
+    <script src="./javascript/carne.js"></script>
+    <script src="./javascript/tortilla.js"></script>
+    <script src="./javascript/combinado.js"></script>
+    <script src="./javascript/especial.js"></script>
+</body>
+
+</html>
